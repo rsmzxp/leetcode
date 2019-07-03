@@ -34,4 +34,4 @@ class Solution(object):
                     dp[i][j]=1
                 else:
                     dp[i][j]=dp[i-1][j]+dp[i][j-1]
-         return dp[i-1][j-1]
+         return dp[m-1][n-1]
